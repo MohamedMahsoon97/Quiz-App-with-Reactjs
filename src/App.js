@@ -13,9 +13,9 @@ const App = () => {
     
     return ( 
         <Router>
-        {/* <Navbar /> */}
+            <Login />
             <Switch>
-                <Route path="/login" exact>
+                <Route exact path="/login">
                     <Login />
                 </Route>
                 <Route path="/StartQuiz">
@@ -28,9 +28,7 @@ const App = () => {
                     <Result />
                 </Route>
             </Switch>
-
         </Router>
     )
 }
-
 export default App;
