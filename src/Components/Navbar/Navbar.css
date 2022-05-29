@@ -1,0 +1,15 @@
+.navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      background-color: #374dbc;
+}
+.navbar a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0px 30px !important;
+}
+.Login-link{
+      margin-right: auto;
+}
